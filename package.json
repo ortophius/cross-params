@@ -1,0 +1,29 @@
+{
+  "name": "cross-params",
+  "version": "1.0.0",
+  "author": "D. Kolesnikov",
+  "description": "This is an (over-)simplified solution for interpolating comand-line args for NPM scripts",
+  "license": "ISC",
+  "keywords": [
+    "cross-platform", "parameters", "npm", "scripts"
+  ],
+  "bin": {
+    "cross-params": "./src/bin/cross-params.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">=6",
+    "yarn": ">=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ortophius/cross-params"
+  },
+  "files": [
+    "src",
+    "LICENSE.txt"
+  ]
+}

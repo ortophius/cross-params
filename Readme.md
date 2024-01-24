@@ -31,7 +31,7 @@ The syntax for template strings is following:
 
 `--key=value` or `-k=value` are consiedered as key-value arguments:
 
-    npx cross-params \"yarn --${command}\" --command=version
+    npx cross-params \"yarn --\${command}\" --command=version
 
 ### NPM scripts
 
@@ -44,6 +44,6 @@ Note that you should wrap command template in quotes and escape the `$` symbols:
 	    }
     }
 
-In this example you can run `npm run cross --version`, which whill lead to calling `yarn --version`
+In this example you can run `npm run cross --version`, which will lead to calling `yarn --version`
 
 Happy hacking!

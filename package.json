@@ -1,6 +1,6 @@
 {
   "name": "cross-params",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "D. Kolesnikov",
   "description": "This is an (over-)simplified solution for interpolating comand-line args for NPM scripts",
   "license": "ISC",

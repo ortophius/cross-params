@@ -17,7 +17,7 @@ yarn:
 
 `cross-params` accepts command template as first argument, followed by actual command-line arguments. For example:
 
-    npx cross-params \"yarn \${1}\" --version
+    npx cross-params "yarn \${1}" --version
 
 will result in calling
 
@@ -31,7 +31,7 @@ The syntax for template strings is following:
 
 `--key=value` or `-k=value` are consiedered as key-value arguments:
 
-    npx cross-params \"yarn --\${command}\" --command=version
+    npx cross-params "yarn --\${command}" --command=version
 
 ### NPM scripts
 
